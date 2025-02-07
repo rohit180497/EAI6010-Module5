@@ -8,7 +8,7 @@ import sys
 
 try:
     # Attempt to load the 'en_core_web_lg' model
-    nlp = spacy.load("en_core_web_lg")
+    nlp = spacy.load("en_core_web_lg")  
     print("Model is already installed.")
 except OSError:
     print("Model not found. Downloading 'en_core_web_lg'...")

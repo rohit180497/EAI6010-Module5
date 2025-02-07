@@ -17,4 +17,4 @@ COPY app/ /app/
 EXPOSE 5000
 
 # Command to run the Flask app
-CMD ["flask", "--app", "main.py", "run", "--host=0.0.0.0"]
+CMD ["flask", "--app", "app/main.py", "run", "--host=0.0.0.0"]
